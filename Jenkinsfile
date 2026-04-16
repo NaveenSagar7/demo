@@ -28,7 +28,7 @@ pipeline {
 
         stage('Success Message') {
             steps {
-                echo "Pipeline executed successfully 🚀"
+                echo "Pipeline executed successfully  🚀"
             }
         }
     }
