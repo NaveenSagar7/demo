@@ -10,7 +10,7 @@ resource "random_id" "bucket_suffix" {
 
 # 3. Create the S3 Bucket
 resource "aws_s3_bucket" "vault_test_bucket" {
-  bucket = "devsecops-vault-demo1-${random_id.bucket_suffix.hex}"
+  bucket = "devsecops-vault-demo2-${random_id.bucket_suffix.hex}"
 
   tags = {
     Name        = "Vault Dynamic Secret Test"
